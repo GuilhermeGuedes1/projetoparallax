@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -18,7 +23,9 @@ html, body {
     --third-color: #332A22;
     --fourth-color: #332E2B;
 
-    --main-font: "Pacifico", serif;
+    --first-font: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sriracha", serif;
+    --font3: "Passion One", serif;
 
 }
 
@@ -43,7 +50,7 @@ a:hover {
 
 
 header h1 {
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
     font-variant: small-caps;
 }
@@ -58,11 +65,14 @@ section {
     padding-bottom: 10vh;
     line-height:2em;
     padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 3.5vw;
 }
 
 section.image > p {
     background-color: rgba(0, 0, 0, 0.301);
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .normal {
