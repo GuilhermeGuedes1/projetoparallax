@@ -7,6 +7,11 @@
     margin: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
 :root {
     --first-color: #6D4524;
     --second-color: #423021;
@@ -22,12 +27,14 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 200px;
+    padding-top: 50px;
+   
 }
 
 a { 
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -38,26 +45,44 @@ a:hover {
 header h1 {
     font-size: 100px;
     text-align: center;
+    font-variant: small-caps;
 }
 
 header p {
+    padding-bottom: 50px;
     font-weight: lighter;
 }
 
-p { font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height:2em;
+    padding-left: 30px;
 }
 
-.white-background {
-    width: 500px;
-    font-size: 5vw;
-    margin-top: 80px;
-    line-height: 80px;
-    margin-left: 20px;
-    font-style: italic;
+section.image > p {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 300px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
 
 }
 
+.image {
+    background-color: rgb(71, 69, 69);
+    color: white;
+
+}
+
+footer { 
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
 
 
